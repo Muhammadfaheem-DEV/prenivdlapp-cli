@@ -199,10 +199,16 @@ The CLI includes comprehensive error handling for:
 
 ## License
 
-MIT License - feel free to use and modify as needed.
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+This means:
+- ✅ **Free to use, modify, and distribute**
+- ✅ **Source code must remain open**
+- ✅ **Any modifications must also be GPL-3.0**
+- ❌ **Cannot be sold as proprietary tools**
 
 > [!CAUTION]
-> **Do not sell this software.** This project is free and open-source. Selling or commercializing this software violates the spirit of the project and is strictly prohibited.
+> **Do not sell this tool.** This project is free and open-source under GPL-3.0. Any distribution (free or paid) must include the source code and maintain the same license. Selling this as proprietary tools is strictly prohibited and violates the GPL-3.0 license terms.
 
 ## Contributing
 
