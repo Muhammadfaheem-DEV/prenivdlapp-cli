@@ -1,0 +1,35 @@
+{
+  "name": "social-media-downloader-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for downloading videos from TikTok, Facebook, and Instagram",
+  "main": "index.js",
+  "bin": {
+    "prnvapp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "downloader",
+    "tiktok",
+    "facebook",
+    "instagram",
+    "social-media",
+    "cross-platform",
+    "termux"
+  ],
+  "author": "Social Media Downloader CLI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  }
+}
