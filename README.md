@@ -89,13 +89,13 @@ Simply run the application without any arguments to start interactive mode:
 node index.js
 
 # Or use the shell script:
-./smdl.sh
+./prnvapp.sh
 
 # Windows:
 node index.js
 
 # Or use the batch file:
-smdl.bat
+prnvapp.bat
 ```
 
 ### Interactive Commands
@@ -136,41 +136,6 @@ This CLI works on:
 - [x] **macOS** (Monterey, Ventura, Sonoma)
 - [x] **Termux** (Android)
 - [x] **WSL** (Windows Subsystem for Linux)
-
-## Features by Platform
-
-### TikTok
-- Video metadata (title, description, creator)
-- Multiple video quality options
-- **Smart API fallback**: Automatically tries v2 API first, falls back to v1 if needed
-- Supports both v2 (newer, simpler) and v1 (detailed stats) API formats
-
-### Facebook
-- Multiple quality options (HD/SD)
-- Multiple formats (MP4 video, MP3 audio, JPG photos)
-- Video thumbnails
-- Title information
-
-### Instagram
-- Single and multiple media support
-- Photos and videos
-- Batch download option for multiple media
-- Thumbnail previews
-
-### Twitter
-- Video downloads from Twitter/X posts
-- Video metadata (title, description)
-- Direct MP4 downloads
-
-### Douyin
-- Video downloads from Douyin (Chinese TikTok)
-- Multiple quality options (Version 1, Version 2)
-- Video metadata and thumbnails
-
-### Spotify
-- Track downloads (MP3 format)
-- Cover image downloads (JPG format)
-- Track metadata (title, artist, description)
 
 ## Dependencies
 - `axios` - HTTP client for API requests
