@@ -1,6 +1,6 @@
 # Social Media Downloader CLI (PRENIVDL)
 
-A powerful command-line interface for downloading videos and media from TikTok, Facebook, Instagram, Twitter, Douyin, and Spotify. Design with beautiful ASCII art and interactive prompts.
+A powerful command-line interface for downloading videos and media from TikTok, Facebook, Instagram, Twitter, Douyin, and Spotify. Designed with beautiful ASCII art and interactive prompts.
 
 ## Features
 
@@ -16,36 +16,65 @@ A powerful command-line interface for downloading videos and media from TikTok, 
 
 ## Installation
 
-1. Clone or download this repository
-2. Navigate to the project directory
-3. Install dependencies:
-
+### Linux (Ubuntu/Debian)
 ```bash
+# Update system
+sudo apt update && sudo apt upgrade -y
+
+# Install Node.js and npm
+sudo apt install nodejs npm git -y
+
+# Verify installation
+node --version
+npm --version
+
+# Clone and install
+git clone https://github.com/arsya371/prenivdlapp-cli.git
+cd prenivdlapp-cli
 npm install
 ```
 
-4. Make the CLI globally available (optional):
-
+### macOS
 ```bash
-# On Linux/macOS/Termux:
-npm link
+# Install Homebrew (if not already installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# On Windows:
-npm link  # (requires administrator privileges)
+# Install Node.js
+brew install node git
+
+# Verify installation
+node --version
+npm --version
+
+# Clone and install
+git clone https://github.com/arsya371/prenivdlapp-cli.git
+cd prenivdlapp-cli
+npm install
 ```
 
-### Termux Installation (Android)
+### Windows
+```bash
+# Download Node.js from nodejs.org
+# Install Git from git-scm.com
+# Open Command Prompt or PowerShell
 
-For Termux users, ensure you have Node.js installed:
+# Clone and install
+git clone https://github.com/arsya371/prenivdlapp-cli.git
+cd prenivdlapp-cli
+npm install
+```
 
+### Termux (Android)
 ```bash
 # Update packages
 pkg update && pkg upgrade
 
-# Install Node.js and npm
-pkg install nodejs
+# Install dependencies
+pkg install nodejs git
 
-# Install project dependencies
+# Clone and install
+git clone https://github.com/arsya371/prenivdlapp-cli.git
+cd prenivdlapp-cli
 npm install
 ```
 
@@ -86,28 +115,6 @@ Example:
 Current download path: my_downloads
 ```
 
-### Direct Platform Commands
-
-```bash
-# TikTok (with custom path)
-node index.js --path custom_folder tiktok <url>
-
-# Facebook (with custom path)
-node index.js --path downloads facebook <url>
-
-# Instagram (with custom path)
-node index.js --path media instagram <url>
-
-# Twitter (with custom path)
-node index.js --path downloads twitter <url>
-
-# Douyin (with custom path)
-node index.js --path downloads douyin <url>
-
-# Spotify (with custom path)
-node index.js --path downloads spotify <url>
-```
-
 ### Download Organization
 
 Downloaded files are organized by platform with timestamps:
@@ -124,11 +131,11 @@ All files are saved to the specified directory (default: `resultdownload_preniv`
 ### Cross-Platform Compatibility
 
 This CLI works on:
-- ✅ **Windows** (10, 11)
-- ✅ **Linux** (Ubuntu, Debian, CentOS, etc.)
-- ✅ **macOS** (Monterey, Ventura, Sonoma)
-- ✅ **Termux** (Android)
-- ✅ **WSL** (Windows Subsystem for Linux)
+- [x] **Windows** (10, 11)
+- [x] **Linux** (Ubuntu, Debian, CentOS, etc.)
+- [x] **macOS** (Monterey, Ventura, Sonoma)
+- [x] **Termux** (Android)
+- [x] **WSL** (Windows Subsystem for Linux)
 
 ## Features by Platform
 
@@ -173,16 +180,7 @@ This CLI works on:
 - `ora` - Elegant terminal spinners
 - `figlet` - ASCII art text generator
 
-## File Naming Convention
-
-Downloaded files are saved with descriptive names:
-
-- TikTok: `tiktok_video_[timestamp].mp4`
-- Facebook: `facebook_[quality]_[timestamp].[format]`
-- Instagram: `instagram_media_[number]_[timestamp].[extension]`
-- Twitter: `twitter_video_[timestamp].mp4`
-- Douyin: `douyin_video_[timestamp].mp4`
-- Spotify: `spotify_audio_[timestamp].mp3` or `spotify_image_[timestamp].jpg`
+## Error Handling
 
 The CLI includes comprehensive error handling for:
 
@@ -203,10 +201,14 @@ The CLI includes comprehensive error handling for:
 
 MIT License - feel free to use and modify as needed.
 
+> [!CAUTION]
+> **Do not sell this software.** This project is free and open-source. Selling or commercializing this software violates the spirit of the project and is strictly prohibited.
+
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
 
 ---
 
-**Note**: This tool is for educational purposes. Please respect the terms of service of the respective social media platforms and only download content you have permission to download.
+> [!NOTE]
+> This tool is for educational purposes. Please respect the terms of service of the respective social media platforms and only download content you have permission to download.
