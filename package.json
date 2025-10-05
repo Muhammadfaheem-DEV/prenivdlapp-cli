@@ -1,7 +1,7 @@
 {
-  "name": "social-media-downloader-cli",
+  "name": "prenivdlapp-cli",
   "version": "1.0.0",
-  "description": "A CLI tool for downloading videos from TikTok, Facebook, and Instagram",
+  "description": "A CLI tool for downloading videos from TikTok, Facebook, Instagram, Douyin, Spotify, and Twitter ",
   "main": "index.js",
   "bin": {
     "prnvapp": "./index.js"
@@ -13,10 +13,17 @@
     "cli",
     "downloader",
     "tiktok",
+    "douyin",
+    "spotify",
+    "twitter",
     "facebook",
+    "prenivdlapp-cli",
     "instagram",
     "social-media",
     "cross-platform",
+    "tools-downloader",
+    "social-media-downloader",
+    "social-media-Downloader-cli",
     "termux"
   ],
   "author": "Social Media Downloader CLI",
